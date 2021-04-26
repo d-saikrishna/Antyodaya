@@ -292,7 +292,7 @@ def update_figure(mtric_chosen,state,index,deprivation_threshold):
     
     return "data:image/png;base64,{}".format(data),open('INFRA1.html', 'r').read()
 # Run app and display result inline in the notebook
-app.run_server(debug=True,port=8051)
+app.run_server(debug=False)
 
 
 
