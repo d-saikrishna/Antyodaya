@@ -287,10 +287,10 @@ def update_figure(mtric_chosen,state,index,deprivation_threshold):
     plt.close()
     
 
-    data1 = base64.b64encode(buf.getbuffer()).decode("utf8")
+    data = base64.b64encode(buf.getbuffer()).decode("utf8")
 
     
-    return "data:image/png;base64,{}".format(data1),open('INFRA1.html', 'r').read()
+    return "data:image/png;base64,{}".format(data),open('INFRA1.html', 'r').read()
 # Run app and display result inline in the notebook
 app.run_server(debug=False)
 
