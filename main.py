@@ -245,10 +245,10 @@ def update_figure(mtric_chosen,state,index,deprivation_threshold):
     
     plt.rcParams['font.sans-serif'] = 'Arial'
     plt.rcParams['font.family'] = 'sans-serif'
-    plt.rcParams['text.color'] = 'White'
+    plt.rcParams['text.color'] = 'Black'
     plt.rcParams['axes.labelcolor']= '#909090'
-    plt.rcParams['xtick.color'] = 'White'
-    plt.rcParams['ytick.color'] = 'White'
+    plt.rcParams['xtick.color'] = 'Black'
+    plt.rcParams['ytick.color'] = 'Black'
     plt.rcParams['font.size']=12
     
     #plots
@@ -292,7 +292,8 @@ def update_figure(mtric_chosen,state,index,deprivation_threshold):
     
     return "data:image/png;base64,{}".format(data),open('INFRA1.html', 'r').read()
 # Run app and display result inline in the notebook
-app.run_server(debug=True)
+app.run_server(debug=True,port=8051)
+
 
 
 # In[ ]:
