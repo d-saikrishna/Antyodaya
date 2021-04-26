@@ -1,6 +1,6 @@
 attrs==20.3.0
 branca==0.4.2
-base64
+pybase64
 Brotli==1.0.9
 certifi==2020.12.5
 chardet==4.0.0
