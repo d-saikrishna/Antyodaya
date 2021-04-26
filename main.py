@@ -29,7 +29,7 @@ import dash_bootstrap_components as dbc
 
 
 import io
-import base64
+import pybase64 as base64
 
 
 # # DASH
