@@ -54,6 +54,7 @@ state_df['State_name'] = state_df['State_name'].str.strip()
 # Build App
 app = dash.Dash(__name__, external_stylesheets=[dbc.themes.SOLAR])
 server = app.server
+app.title = "How deprived are Indian districts? - Mission Antyodaya 2019"
 app.layout = html.Div([
     html.Div([
         html.H1("Mission Antyodaya 2019"),
