@@ -269,7 +269,7 @@ def update_figure(mtric_chosen,state,index,deprivation_threshold):
 # Run app and display result inline in the notebook
 
 if __name__ == "__main__":
-    app.run_server(debug=True,use_reloader=False)
+    app.run_server(debug=False,use_reloader=False)
 
 
 
