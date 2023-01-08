@@ -5,11 +5,9 @@
 
 
 import pandas as pd
-import numpy as np
-
 
 import matplotlib.pyplot as plt
-import geopandas as gpd
+import geopandas as gpdpython
 import folium
 
 
@@ -271,11 +269,4 @@ def update_figure(mtric_chosen,state,index,deprivation_threshold):
 
 if __name__ == "__main__":
     app.run_server(debug=False,use_reloader=False)
-
-
-
-# In[ ]:
-
-
-
 
